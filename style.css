@@ -1,0 +1,88 @@
+audio{
+    display:none;
+}
+.hahahaha{
+    position: absolute;
+    top:0px;
+    float:left;
+}
+#quadrado2{
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 284px;
+    left: 95px;
+    animation: quadrado2 0.8s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+@keyframes quadrado2{
+    0%{left: 198px;}
+   100%{right: 200px;}
+    }
+#quadrado{
+    width: 20px;
+    height: 20px;
+    position: fixed;
+    top: 284px;
+    left: 500px;
+    animation: quadrado 1s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes quadrado{
+    0%{left: 380px;}
+   100%{right: 300px;}
+    }
+
+    .gumpa2{
+        top:294px ;
+        left:500px ;
+        width: 34px;
+        height: 29px;
+    }
+    .gumpa{
+        top:294px ;
+        left:500px ;
+        width: 34px;
+        height: 29px;
+    }
+
+    #coin{
+        width: 20px;
+        height: 20px;
+        position: fixed;
+        top: 227px;
+        left: 223px;
+    }
+
+    .coin{
+        top:294px ;
+        left:500px ;
+        width: 35px;
+        height: 35px;
+    }
+
+    .character{
+        top:284px ;
+        right:900px ;
+        width: 44px;
+        height: 42px;
+    }
+
+#koopa{
+    width: 32px;
+    height: 30px;
+    position: fixed;
+    top: 272px;
+    right: 900px;
+    animation: koopa 1s infinite;
+    animation-direction: alternate;
+    animation-timing-function: linear;
+}
+
+@keyframes koopa{
+    0%{left: 904px;}
+   100%{right: 159px;}
+    }

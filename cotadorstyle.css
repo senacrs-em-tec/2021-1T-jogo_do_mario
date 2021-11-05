@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'wide_pixel-7-webfont'; 
+    src: url('contadorfonte/wide_pixel_7/webfontkit-20210707-140453/wide_pixel-7-webfont.woff');
+    src: url('contadorfonte/wide_pixel_7/webfontkit-20210707-140453/wide_pixel-7-webfont.woff2');
+}
+h1{
+ font-family: 'wide_pixel-7-webfont';
+ position: absolute;
+ right: 0px;
+
+
+}
